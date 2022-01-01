@@ -1,9 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import "./Tollbar.css";
-const Tollbar = () => {
+import "./CupPanel.css";
+const CupPanel = () => {
   return (
-    <div className="tollbar">
+    <div className="cupPanel">
       <NavLink end style={{ textDecoration: "none" }} to="/">
         <p>All Cup</p>
       </NavLink>
@@ -20,4 +20,4 @@ const Tollbar = () => {
   );
 };
 
-export default Tollbar;
+export default CupPanel;

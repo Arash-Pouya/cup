@@ -1,8 +1,8 @@
 import React from "react";
 import "./cup.css";
-import fullcup from "../assets/img4.jpg";
-import Ticket from "../component/Ticket/Ticket";
-import Timer from "../component/Timer/Timer";
+import fullcup from "../../assets/img4.jpg";
+import Ticket from "../Ticket/Ticket";
+import Timer from "../Timer/Timer";
 const Cup = () => {
   return (
     <div className="bord">

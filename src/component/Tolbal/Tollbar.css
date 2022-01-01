@@ -1,0 +1,15 @@
+.tollbar {
+  width: 20%;
+  margin: 5px auto;
+  border-radius: 50px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px;
+}
+.tollbar span {
+  border-bottom: 1px solid darkslateblue;
+}
