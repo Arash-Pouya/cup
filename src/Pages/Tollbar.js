@@ -1,23 +1,23 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./Tollbar.css";
-const Cuplist = () => {
+const Tollbar = () => {
   return (
     <div className="tollbar">
       <NavLink end style={{ textDecoration: "none" }} to="/">
-        <p>Cup</p>
+        <p>All Cup</p>
       </NavLink>
-      <NavLink end style={{ textDecoration: "none" }} to="/SupetCup">
-        <p>SupetCup</p>
+      <NavLink end style={{ textDecoration: "none" }} to="/SuperCup">
+        <p>Super Cup</p>
       </NavLink>
       <NavLink style={{ textDecoration: "none" }} end to="/Monthlyfinal">
-        <p>Monthlyfinal</p>
+        <p>Monthly final Cup</p>
       </NavLink>
       <NavLink style={{ textDecoration: "none" }} end to="/Weekendfinal">
-        <p>Weekendfinal</p>
+        <p>Weekend final Cup</p>
       </NavLink>
     </div>
   );
 };
 
-export default Cuplist;
+export default Tollbar;

@@ -4,6 +4,7 @@
 }
 
 .card {
+  margin-top: 10px;
   position: relative;
   display: flex;
   align-items: flex-end;

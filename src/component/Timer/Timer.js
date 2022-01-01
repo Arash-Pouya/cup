@@ -108,6 +108,7 @@ class Timer extends Component {
             <span>Sec</span>
           </span>
         </span>
+        <p>{this.props.title}</p>
       </div>
     );
   }

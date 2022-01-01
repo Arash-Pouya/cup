@@ -1,12 +1,13 @@
 .bord {
   margin: 30px auto;
   width: 90%;
-  border: 1px solid black;
   padding: 10px;
+  background-color: rgba(0, 0, 0, 0.205);
+  backdrop-filter: blur(30px);
 }
 .topbox {
+  padding-top: 10px;
   margin-bottom: 10px;
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
 }
@@ -22,9 +23,7 @@
   width: 10%;
 }
 .cards {
-  /* margin-top: 200px; */
-  border: 1px solid blue;
-
+  padding-top: 10px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -34,7 +33,7 @@
   margin-bottom: 10px;
 }
 .timers {
-  border: 1px solid blueviolet;
+  padding-top: 10px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
