@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Timer.css";
+import Cup from "../../assets/iconscup.png";
 class Timer extends Component {
   constructor(props) {
     super(props);
@@ -109,6 +110,7 @@ class Timer extends Component {
           </span>
         </span>
         <p>{this.props.title}</p>
+        <img src={Cup} />
       </div>
     );
   }

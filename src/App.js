@@ -6,6 +6,7 @@ import Weekendfinal from "./Pages/WeekendFinal";
 import Cup from "../src/Pages/Cup";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Tollbar from "./Pages/Tollbar";
+import Footer from "./component/Footer/Footer";
 function App() {
   return (
     <div className="App">
@@ -18,7 +19,8 @@ function App() {
           <Route exact strict path="/Weekendfinal" element={<Weekendfinal />} />
           {/* <Route path="" /> */}
         </Routes>
-      </BrowserRouter>{" "}
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }
