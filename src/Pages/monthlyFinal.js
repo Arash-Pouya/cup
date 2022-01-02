@@ -4,7 +4,7 @@ import Ticket from "../component/Ticket/Ticket";
 import Timer from "../component/Timer/Timer";
 const Monthlyfinal = () => {
   return (
-    <div>
+    <>
       <div className="bord">
         <div className="topbox">
           <img src={month} />
@@ -15,7 +15,7 @@ const Monthlyfinal = () => {
           <Ticket title="بلیط شماره دو" main="برای شرکت در مسابقه این بلیط را خریداری کنید" click={() => alert("Ticket 2")} />
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

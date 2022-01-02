@@ -4,7 +4,7 @@ import Ticket from "../component/Ticket/Ticket";
 import Timer from "../component/Timer/Timer";
 const Supercup = () => {
   return (
-    <div>
+    <>
       <div className="bord">
         <div className="topbox">
           <img src={fullcup} />
@@ -17,7 +17,7 @@ const Supercup = () => {
           <Ticket title="بلیط شماره چهار" main="برای شرکت در مسابقه این بلیط را خریداری کنید" click={() => alert("Ticket 4")} />
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

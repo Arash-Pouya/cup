@@ -14,8 +14,7 @@
   border-radius: 30px;
   text-align: center;
   color: whitesmoke;
-  background-color: rgb(255, 0, 0);
-  /* backdrop-filter: blur(30px); */
+
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
   background-image: url("../../assets/wp4676569.jpg");
   background-repeat: no-repeat;
@@ -66,6 +65,9 @@
   padding: 1rem;
   transition: transform var(--d) var(--e);
   z-index: 1;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.075);
+  backdrop-filter: blur(10px);
 }
 .content > * + * {
   margin-top: 1rem;
@@ -78,7 +80,6 @@
 }
 
 .copy {
-  font-family: var(--font-serif);
   font-size: 1.125rem;
   font-style: italic;
   line-height: 1.35;
@@ -87,14 +88,16 @@
 .btn {
   cursor: pointer;
   margin-top: 1.5rem;
+  width: 80%;
   padding: 0.75rem 1.5rem;
-  font-size: 0.65rem;
+  font-size: 1rem;
   font-weight: bold;
-  letter-spacing: 0.025rem;
+  /* letter-spacing: 0.025rem; */
   text-transform: uppercase;
   color: white;
   background-color: black;
   border: none;
+  border-radius: 10px;
 }
 .btn:hover {
   background-color: #0d0d0d;

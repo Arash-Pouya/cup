@@ -4,7 +4,7 @@ import Ticket from "../component/Ticket/Ticket";
 import Timer from "../component/Timer/Timer";
 const Weekendfinal = () => {
   return (
-    <div>
+    <>
       <div className="bord">
         <div className="topbox">
           <img src={week} />
@@ -14,7 +14,7 @@ const Weekendfinal = () => {
           <Ticket title="بلیط شماره یک" main="برای شرکت در مسابقه این بلیط را خریداری کنید" click={() => alert("Ticket one")} />
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

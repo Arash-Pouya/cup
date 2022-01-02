@@ -10,7 +10,7 @@
 }
 
 .active p {
-  transform: translateY(30px);
+  transform: translateY(10px);
 }
 @media only screen and (max-width: 600px) {
   .cupPanel {
