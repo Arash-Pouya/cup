@@ -8,7 +8,7 @@ const Supercup = () => {
       <div className="bord">
         <div className="topbox">
           <img src={fullcup} />
-          <Timer date="2022-03-01T00:00:00" title="Super Cup" />
+          <Timer date="2022-06-30T00:00:00" title="Super Cup" />
         </div>
         <div className="cards">
           <Ticket title="بلیط شماره یک" main="برای شرکت در مسابقه این بلیط را خریداری کنید" click={() => alert("Ticket 1")} />

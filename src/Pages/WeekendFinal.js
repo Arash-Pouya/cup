@@ -8,7 +8,7 @@ const Weekendfinal = () => {
       <div className="bord">
         <div className="topbox">
           <img src={week} />
-          <Timer date="2022-01-07T00:00:00" title="Weekend Cup" />
+          <Timer date="2022-04-07T00:00:00" title="Weekly Cup" />
         </div>
         <div className="cards">
           <Ticket title="بلیط شماره یک" main="برای شرکت در مسابقه این بلیط را خریداری کنید" click={() => alert("Ticket one")} />

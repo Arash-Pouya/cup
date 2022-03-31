@@ -8,7 +8,7 @@ const Monthlyfinal = () => {
       <div className="bord">
         <div className="topbox">
           <img src={month} />
-          <Timer date="2022-02-01T00:00:00" title="Monthly Cup" />
+          <Timer date="2022-04-31T00:00:00" title="Monthly Cup" />
         </div>
         <div className="cards">
           <Ticket title="بلیط شماره یک" main="برای شرکت در مسابقه این بلیط را خریداری کنید" click={() => alert("Ticket 1")} />
